@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="459E4E53-D459-2111-74C9-1E9ADADCD49D" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="TEACHER">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>TEACHER</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CE9E9826-2808-6A5A-DF1F-ABD46023312E">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TEACHER</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NICKNAME" id="79D2E5BA-D804-F523-24BE-0BCCAEE2FA95">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TEACHER</sourceObjSchema>
+<sourceObjName>NICKNAME</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="C15939D8-72FB-3601-3AEB-E03EF89BBFD9">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TEACHER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER" id="086712FE-AE92-1EB2-FFC8-84E43D79068F">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TEACHER</sourceObjSchema>
+<sourceObjName>GENDER</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>TEACHER_GENDER_NN</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F61764C8-CDA4-B0C5-CFBC-DECDDBC15937" name="TEACHER_ID_PK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>TEACHER_ID_PK</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:08 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE9E9826-2808-6A5A-DF1F-ABD46023312E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8383344F-7C5A-7050-1CEB-8DCF836BED88" name="TEACHER_NICKNAME_UK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>TEACHER_NICKNAME_UK</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:08 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D2E5BA-D804-F523-24BE-0BCCAEE2FA95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68FB8B4C-55C0-2371-9908-BABC907353E9" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="TEACHER_ID_PK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>TEACHER_ID_PK</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE9E9826-2808-6A5A-DF1F-ABD46023312E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A2F3776-2337-D0EB-D584-9B7B4E2EB51F" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="TEACHER_NICKNAME_UK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>TEACHER_NICKNAME_UK</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79D2E5BA-D804-F523-24BE-0BCCAEE2FA95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

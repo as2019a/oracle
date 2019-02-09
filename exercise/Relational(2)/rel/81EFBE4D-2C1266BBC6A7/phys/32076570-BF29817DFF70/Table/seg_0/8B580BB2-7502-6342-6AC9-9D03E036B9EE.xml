@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ROOM" directorySegmentName="seg_0" id="8B580BB2-7502-6342-6AC9-9D03E036B9EE">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<schemaObject>A8B47844-D4E1-A4C1-6264-EA8E7478B3FF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6FC3D429-442D-EDB8-98BD-4E32AA744E2F</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROOM" id="B15DB3BE-1E1B-42F3-BECF-4875D1CEA144">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CAPACITY" id="F6725E66-F147-22C9-4875-A802709FAA18">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ROOM_PK" id="2E7543F1-3FC7-DA3C-B10C-0FD2B4EFAFB5">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:08 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<schemaObject>A8B47844-D4E1-A4C1-6264-EA8E7478B3FF</schemaObject>
+<segment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+<indexSegment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

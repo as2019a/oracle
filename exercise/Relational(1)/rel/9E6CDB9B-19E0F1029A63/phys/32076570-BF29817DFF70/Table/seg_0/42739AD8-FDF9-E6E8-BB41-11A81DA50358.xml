@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TAX" directorySegmentName="seg_0" id="42739AD8-FDF9-E6E8-BB41-11A81DA50358">
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<schemaObject>ADD3BA87-3331-DA0A-7EBE-DB2AD56F6412</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6640764B-5AD2-1B61-7C9C-D2EAF44B8168</segment>
+<tableSpace>9153E3A8-1CCD-040D-146E-FED5E137AF8D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MAX" id="3F77B9A5-B4BB-67E8-5BC0-37DA62356ED3">
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PCT" id="470826DD-6756-D46A-ADD3-8022782E19D9">
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAX_ID" id="91BF957F-520F-D45E-B27A-5852056E9722">
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIN" id="F0F1854E-3E45-453A-AC8C-B9FA8403D9F8">
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TAX_PK" id="4BB02D86-F5AE-5B0D-5A2A-8387FE576864">
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<schemaObject>ADD3BA87-3331-DA0A-7EBE-DB2AD56F6412</schemaObject>
+<segment>C73528C4-89FB-1FA6-FA97-70BF06353AC8</segment>
+<tableSpace>9153E3A8-1CCD-040D-146E-FED5E137AF8D</tableSpace>
+<indexSegment>C73528C4-89FB-1FA6-FA97-70BF06353AC8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

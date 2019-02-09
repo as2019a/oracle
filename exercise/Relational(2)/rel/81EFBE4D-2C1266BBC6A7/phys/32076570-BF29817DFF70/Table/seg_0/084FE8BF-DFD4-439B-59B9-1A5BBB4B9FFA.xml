@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USERS" directorySegmentName="seg_0" id="084FE8BF-DFD4-439B-59B9-1A5BBB4B9FFA">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:14 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<schemaObject>A8B47844-D4E1-A4C1-6264-EA8E7478B3FF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6FC3D429-442D-EDB8-98BD-4E32AA744E2F</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="024EF46D-BA57-129E-6BEF-D7FD798AB70F">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="14F247F6-6415-9BFE-66AA-D6C47E73AA5C">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGDATE" id="5E57391A-526A-9CE4-D2C9-CE2055AFD641">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="9FEB8D06-3890-3B7F-AC76-7AB5FE5348A0">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="POINT" id="A73D6556-1B44-EBB9-60A7-B2EB10FCECA2">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USERS_PK" id="52E36B00-52F6-7EBD-ACA7-5845539F96F1">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<schemaObject>A8B47844-D4E1-A4C1-6264-EA8E7478B3FF</schemaObject>
+<segment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+<indexSegment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

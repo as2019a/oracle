@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73D60C7A-D496-4C7F-44A4-2790EBAEA223" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="LECTURE">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>LECTURE</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9713D2A9-E013-6A45-1ED9-02F05DCEABCF">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>LECTURE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="AA54CC6A-5792-24EC-6C3A-7F439FACFF72">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>LECTURE</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROOM" id="5485FEB8-545C-0CC9-6EF7-48E6FE02D68A">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>LECTURE</sourceObjSchema>
+<sourceObjName>ROOM</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<constraintName>SYS_C007053</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;A&apos;" description=""/>
+<valueDef value="&apos;B&apos;" description=""/>
+<valueDef value="&apos;C&apos;" description=""/>
+<valueDef value="&apos;D&apos;" description=""/>
+<valueDef value="&apos;E&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26A2A1DA-4F92-7C51-89CF-C41C80FA3A2A" referredColumn="B15DB3BE-1E1B-42F3-BECF-4875D1CEA144"/>
+<colAssociation fkAssociation="3D6619BB-8983-FAC2-4232-2B8509A23968" referredColumn="B15DB3BE-1E1B-42F3-BECF-4875D1CEA144"/>
+</associations>
+</Column>
+<Column name="TEACHER_ID" id="11460D9D-9EEF-2C3F-20F5-9FA9AD2A871E">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>LECTURE</sourceObjSchema>
+<sourceObjName>TEACHER_ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A1A786-8A50-9340-A1EC-1DADA89FE556" referredColumn="CE9E9826-2808-6A5A-DF1F-ABD46023312E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C441EAA-E2E0-A590-33AE-9F1FC2D3357F" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="LECTURE_PK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>SYS_C007054</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9713D2A9-E013-6A45-1ED9-02F05DCEABCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="587912D9-EE22-E4AF-56F1-AA1DFAF8CAB1" name="SYS_C007056">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:08 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11460D9D-9EEF-2C3F-20F5-9FA9AD2A871E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5974351-04E1-FF6F-5B3C-C80673ADB190" name="SYS_C007066">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:08 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5485FEB8-545C-0CC9-6EF7-48E6FE02D68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59FB6488-EF4F-D289-E532-83186B536D6F" name="SYS_C007085">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 07:20:43 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5485FEB8-545C-0CC9-6EF7-48E6FE02D68A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

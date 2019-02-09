@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8FDADF3-00E1-D0E3-39FC-7838FB06AB34" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="COMPANY">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:14 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>B715CE8E-B379-8036-D9F0-8B10E83885A3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="17FF8E79-94B7-60F7-351F-078E2C466340">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>51601BB3-1C55-A6CB-22BB-BE2F3FBA1763</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="1246AE07-ACBD-DDAB-A0A6-B1681A7B6490">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>492329E9-673B-EB3C-76F0-10519ABFFB5E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="3296C5D4-080D-F05F-1283-87A0BC73421C">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>61516E2C-320A-951A-C08E-A017EECCE6DD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC72E9FF-4823-076D-740A-AF5729A90522" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="COMPANY_PK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>SYS_C007068</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>927375E9-4F99-D6FC-60AF-822CBB7C684A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17FF8E79-94B7-60F7-351F-078E2C466340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

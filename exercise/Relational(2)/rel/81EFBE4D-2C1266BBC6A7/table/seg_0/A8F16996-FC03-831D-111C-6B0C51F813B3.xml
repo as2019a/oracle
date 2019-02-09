@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8F16996-FC03-831D-111C-6B0C51F813B3" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="BUY">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>BUY</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:14 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>E169190D-B6B7-060A-1078-430951228F98</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3201CFFE-C982-6C16-E7ED-28B0F10D9C69">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BUY</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>55869D18-28D9-86A7-5F5F-BA4389F99D61</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ID" id="65205A72-6550-705C-3E77-A049386DAD73">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BUY</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>B0D238A9-E255-8F81-9C4F-F1C106E65B27</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D62A168-BE1C-DC64-B3E1-39E104612289" referredColumn="18919F13-AEF6-97AD-B100-3336F3349AB5"/>
+</associations>
+</Column>
+<Column name="USER_ID" id="39524559-0094-CD21-D30F-CB8AB6B81320">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BUY</sourceObjSchema>
+<sourceObjName>COMPANY_ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>51D6110F-9DF7-AD46-33F6-749A1331CB77</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="058099CB-9E93-BCC7-FA70-68639307BB20" referredColumn="17FF8E79-94B7-60F7-351F-078E2C466340"/>
+<colAssociation fkAssociation="FF8D7D43-FE07-78FF-EEAF-74D139825B15" referredColumn="024EF46D-BA57-129E-6BEF-D7FD798AB70F"/>
+</associations>
+</Column>
+<Column name="COUNT" id="E2C607AB-7F48-E23A-DB69-703B0FCEF1AF">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BUY</sourceObjSchema>
+<sourceObjName>COUNT</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>EE429C6E-1DFD-8CD5-B7CF-01AEC63A4B02</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C2BA922-EA38-529A-4E14-31708D14898B" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="BUY_PK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>SYS_C007076</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>9FEF745F-732C-4CE6-6217-DFDD6B01A845</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3201CFFE-C982-6C16-E7ED-28B0F10D9C69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A045C48-A6E8-6B6D-8890-9912F9C81FD9" name="SYS_C007077">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65205A72-6550-705C-3E77-A049386DAD73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="611F31DD-5FC5-A67A-2B9B-C4F29145623E" name="SYS_C007078">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 06:23:34 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39524559-0094-CD21-D30F-CB8AB6B81320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CD68459-CFCC-2A3F-9BED-1473638EED26" name="SYS_C007083">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 06:23:34 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39524559-0094-CD21-D30F-CB8AB6B81320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TEACHER" directorySegmentName="seg_0" id="459E4E53-D459-2111-74C9-1E9ADADCD49D">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<schemaObject>A8B47844-D4E1-A4C1-6264-EA8E7478B3FF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6FC3D429-442D-EDB8-98BD-4E32AA744E2F</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="GENDER" id="086712FE-AE92-1EB2-FFC8-84E43D79068F">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NICKNAME" id="79D2E5BA-D804-F523-24BE-0BCCAEE2FA95">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="C15939D8-72FB-3601-3AEB-E03EF89BBFD9">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="CE9E9826-2808-6A5A-DF1F-ABD46023312E">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TEACHER_NICKNAME_UK" id="1A2F3776-2337-D0EB-D584-9B7B4E2EB51F">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<schemaObject>A8B47844-D4E1-A4C1-6264-EA8E7478B3FF</schemaObject>
+<segment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TEACHER_ID_PK" id="68FB8B4C-55C0-2371-9908-BABC907353E9">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:07 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<schemaObject>A8B47844-D4E1-A4C1-6264-EA8E7478B3FF</schemaObject>
+<segment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TEACHER_ID_PK" id="F61764C8-CDA4-B0C5-CFBC-DECDDBC15937">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:08 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<segment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+<existingIndex>68FB8B4C-55C0-2371-9908-BABC907353E9</existingIndex>
+<indexSegment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="TEACHER_NICKNAME_UK" id="8383344F-7C5A-7050-1CEB-8DCF836BED88">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:14:08 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<segment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</segment>
+<tableSpace>652BE92B-AC98-8C3D-73BC-ED09FAD34DDF</tableSpace>
+<existingIndex>1A2F3776-2337-D0EB-D584-9B7B4E2EB51F</existingIndex>
+<indexSegment>4689B7D4-4836-26F9-BF10-2CC7C6D38F0C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

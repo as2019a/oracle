@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="219D96B3-0A7D-302F-51C8-D5BA57765F00" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="BASKET">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>BASKET</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:14 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>6D750E9E-1E4E-CE23-2DAC-FEC084327080</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="44AC17BC-A272-3FD1-504A-2BFFC83EFD07">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BASKET</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>49BA43FF-6E73-B366-23C9-B9E1DDC90727</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_ID" id="092F6E95-F7AB-BAF2-14E9-EFAF83D6FF95">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BASKET</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>532BDC0B-EACE-8A47-67EB-9EB70BE9399F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="668FEF77-783E-4E9D-D0A1-57C9479C4296" referredColumn="18919F13-AEF6-97AD-B100-3336F3349AB5"/>
+</associations>
+</Column>
+<Column name="USER_ID" id="AB87412B-44FB-292C-2DBF-5569F2AF6A1A">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BASKET</sourceObjSchema>
+<sourceObjName>COMPANY_ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>701B99D1-3B52-3B6D-6645-7A8BECB4C7D2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="894CA86B-083B-3353-AE43-AD203EB373D6" referredColumn="024EF46D-BA57-129E-6BEF-D7FD798AB70F"/>
+</associations>
+</Column>
+<Column name="COUNT" id="E1BBB784-1D96-E23A-24CC-59933041E9AA">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>BASKET</sourceObjSchema>
+<sourceObjName>COUNT</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>8715B7D6-1174-3A3E-F70B-817058E8EAA0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36718B26-1D65-D9B4-484D-65E428F041C3" schemaObject="A8B47844-D4E1-A4C1-6264-EA8E7478B3FF" name="BASKET_PK">
+<sourceConnName>conn_tiger</sourceConnName>
+<sourceObjSchema>TIGER</sourceObjSchema>
+<sourceObjName>SYS_C007080</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<importedID>30C26665-62EA-3246-0559-69CF043034BB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44AC17BC-A272-3FD1-504A-2BFFC83EFD07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BE50E00-CD32-F4EA-B7AD-C35643532860" name="SYS_C007081">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 05:48:15 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="092F6E95-F7AB-BAF2-14E9-EFAF83D6FF95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8CC8531-5170-4451-DB75-6A0F7881C2DE" name="SYS_C007084">
+<createdBy>12</createdBy>
+<createdTime>2018-10-29 06:23:34 UTC</createdTime>
+<ownerDesignName>Relational(2)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB87412B-44FB-292C-2DBF-5569F2AF6A1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

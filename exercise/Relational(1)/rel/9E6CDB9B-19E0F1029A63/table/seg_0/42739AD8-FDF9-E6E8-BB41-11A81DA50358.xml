@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42739AD8-FDF9-E6E8-BB41-11A81DA50358" schemaObject="ADD3BA87-3331-DA0A-7EBE-DB2AD56F6412" name="TAX">
+<sourceConnName>conn_hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TAX</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<importedID>E80CA742-6455-E3C1-9E3A-7B31B625E530</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TAX_ID" id="91BF957F-520F-D45E-B27A-5852056E9722">
+<sourceConnName>conn_hr</sourceConnName>
+<sourceObjSchema>TAX</sourceObjSchema>
+<sourceObjName>TAX_ID</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<importedID>5333C2CC-7C8D-36AE-F5F8-815DCBE53801</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAX" id="3F77B9A5-B4BB-67E8-5BC0-37DA62356ED3">
+<sourceConnName>conn_hr</sourceConnName>
+<sourceObjSchema>TAX</sourceObjSchema>
+<sourceObjName>MAX</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<importedID>70B599C0-C62A-44AA-9FD7-223B860F0CEB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIN" id="F0F1854E-3E45-453A-AC8C-B9FA8403D9F8">
+<sourceConnName>conn_hr</sourceConnName>
+<sourceObjSchema>TAX</sourceObjSchema>
+<sourceObjName>MIN</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<importedID>933D959B-5559-4663-27F1-A8F028A756AB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PCT" id="470826DD-6756-D46A-ADD3-8022782E19D9">
+<sourceConnName>conn_hr</sourceConnName>
+<sourceObjSchema>TAX</sourceObjSchema>
+<sourceObjName>PCT</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<importedID>C728C70B-76BC-67CE-3621-F7473193BDAB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BB02D86-F5AE-5B0D-5A2A-8387FE576864" schemaObject="ADD3BA87-3331-DA0A-7EBE-DB2AD56F6412" name="TAX_PK">
+<sourceConnName>conn_hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>SYS_C007020</sourceObjName>
+<createdBy>12</createdBy>
+<createdTime>2018-10-25 07:27:55 UTC</createdTime>
+<ownerDesignName>Relational(1)</ownerDesignName>
+<importedID>B040A2D1-D6E4-42E4-441B-CCAF4D692C1E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91BF957F-520F-D45E-B27A-5852056E9722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

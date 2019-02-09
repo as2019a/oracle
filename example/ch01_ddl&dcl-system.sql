@@ -1,0 +1,26 @@
+-- ?‚¬?š©?•  ê³„ì • ? ê¸? ??ê¸?
+alter user hr account unlock;
+
+-- ?‚¬?š©??˜ ë¹„ë?ë²ˆí˜¸ ë³?ê²½í•˜ê¸?
+alter user hr identified by 1111; 
+
+-- ?‚¬?š©? ?ƒ?„±, ?™?‹œ?— ë¹„ë?ë²ˆí˜¸ ?„¤? •
+create user tiger identified by 1111;
+
+-- ?‚¬?š©??—ê²? ê¶Œí•œ ë¶??—¬
+grant create user, drop user to tiger;
+
+-- ê¶Œí•œ ì¢…ë¥˜ ê²??ƒ‰
+select * from dbba_sys_privs;
+
+-- ë¡?(ê¶Œí•œ?“¤?´ ì§‘í•œ ë¶??—¬)
+grant dba to tiger;
+
+-- ë¡? ?ˆ˜ê±?(ëª¨ë“  ê¶Œí•œ)
+revoke dba from tiger;
+
+-- ?‚¬?š©? ?‚­? œ
+drop user tiger;
+
+--DDL : CREATE(?ƒ?„±), ALTER(?ˆ˜? •), DROP(?‚­? œ)
+--DCL : GRANT(ë¶??—¬), REVOKE(?šŒ?ˆ˜)
