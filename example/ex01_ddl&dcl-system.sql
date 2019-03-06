@@ -11,7 +11,7 @@ create user tiger identified by 1111;
 grant create user, drop user to tiger;
 
 -- 권한 종류 검색
-selec * from dbba_sys_privs;
+select * from dbba_sys_privs;
 
 -- 롤(권한들이 집한 부여)
 grant dba to tiger;
